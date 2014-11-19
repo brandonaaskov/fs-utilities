@@ -1,4 +1,4 @@
-angular.module('fs.utils', []).factory('utils', function() {
+angular.module('fs.utilities', []).factory('utils', function() {
   var isTrueObject = function(obj) {
     if (_.isUndefined(obj)) {
       return false
